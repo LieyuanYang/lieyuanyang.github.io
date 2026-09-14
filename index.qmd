@@ -1,5 +1,5 @@
 ---
-title: "Lieyuan Yang | Assistant Professor of Economics | Renmin University of China"
+title: "Lieyuan Yang"
 description: "Lieyuan Yang is an Assistant Professor of Economics at Renmin University of China. His research is in macroeconomics, public economics, and economic growth."
 ---
 
