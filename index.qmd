@@ -7,7 +7,7 @@ description: "Lieyuan Yang is an Assistant Professor of Economics at Renmin Univ
 
 ::: {.home-sidebar}
 
-<img src="images/profile_picture.jpg" alt="Lieyuan Yang" class="profile-photo">
+<img src="images/profile_picture.JPG" alt="Lieyuan Yang" class="profile-photo">
 
 
 
