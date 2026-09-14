@@ -1,0 +1,40 @@
+---
+title: "Lieyuan Yang | Assistant Professor of Economics | Renmin University of China"
+description: "Lieyuan Yang is an Assistant Professor of Economics at Renmin University of China. His research is in macroeconomics, public economics, and economic growth."
+---
+
+::: {.home-grid}
+
+::: {.home-sidebar}
+
+<img src="images/profile_picture.jpg" alt="Lieyuan Yang" class="profile-photo">
+
+
+
+:::
+
+::: {.home-main}
+
+# Lieyuan Yang
+
+
+
+I am an Assistant Professor of Economics at School of Economics, Renmin University of China. I received my PhD in Economics from the University of Minnesota in 2026.
+
+My research fields are **macroeconomics**, **public economics**, and **economic growth**. My work combines rigorous empirical analysis with structural models to study the macroeconomic effects of public policy, with a particular focus on fiscal redistribution, local public investment, regional growth, and economic measurement.
+
+## Research Fields
+
+- Macroeconomics
+- Public Finance
+- Economic Growth
+
+## Contact
+
+Email: [lieyuany@gmail.com](mailto:lieyuany@gmail.com) | [lieyuanyang@ruc.edu.cn](mailto:lieyuanyang@ruc.edu.cn)
+
+No. 59, Zhongguancun Street, Haidian District, Beijing, China
+
+:::
+
+:::

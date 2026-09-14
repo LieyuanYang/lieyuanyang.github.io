@@ -1,0 +1,238 @@
+/* ============================================================
+   Site-wide layout controls
+   Adapted from the Xiang Liu academic website template.
+   ============================================================ */
+
+:root {
+  --site-max-width: 950px;
+  --home-left-column: 360px;
+  --home-column-gap: 3.5rem;
+  --profile-photo-width: 340px;
+  --accent: #7a0019;
+  --muted: #5d6269;
+  --rule: #e6e6e6;
+}
+
+body {
+  font-size: 1.03rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover,
+a:focus {
+  color: #520011;
+}
+
+.navbar-brand,
+.navbar-nav {
+  font-size: 1.02rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+p,
+li {
+  line-height: 1.65;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  margin-top: 1.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.quarto-title-block {
+  display: none;
+}
+
+main.content {
+  width: min(var(--site-max-width), calc(100% - 48px));
+  max-width: var(--site-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.8rem;
+}
+
+/* Homepage */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: var(--home-left-column) minmax(0, 1fr);
+  column-gap: var(--home-column-gap);
+  align-items: start;
+  margin-top: 0.6rem;
+}
+
+.home-sidebar {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: var(--profile-photo-width);
+  border-radius: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-links {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.profile-links a {
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.profile-links span {
+  margin-left: 0.35rem;
+  margin-right: 0.35rem;
+  color: #777;
+}
+
+.home-main h1 {
+  font-size: 2.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  font-size: 1.04rem;
+  color: var(--muted);
+  margin-bottom: 1.3rem;
+}
+
+/* Standard pages */
+
+.standard-page {
+  max-width: var(--site-max-width);
+}
+
+.standard-page h1 {
+  font-size: 2.05rem;
+  margin-bottom: 0.8rem;
+}
+
+/* CV */
+
+.cv-actions {
+  margin-bottom: 0.45rem;
+}
+
+.cv-note {
+  color: var(--muted);
+  font-size: 0.94rem;
+  margin-bottom: 1.2rem;
+}
+
+.cv-pdf {
+  width: 100%;
+  height: 900px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Research */
+
+.research-entry {
+  margin-top: 1.1rem;
+  margin-bottom: 1.35rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.research-entry:last-child {
+  border-bottom: none;
+}
+
+.research-entry summary {
+  cursor: pointer;
+  list-style-position: outside;
+  padding-left: 0.1rem;
+}
+
+.research-entry summary::marker {
+  color: #666;
+}
+
+.research-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1.03rem;
+  color: #222;
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+}
+
+.research-meta,
+.research-links {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.research-details {
+  margin-top: 0.95rem;
+  padding-left: 1.35rem;
+  color: #333;
+}
+
+.research-details p {
+  margin-bottom: 0.65rem;
+}
+
+.link-separator {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  color: #777;
+}
+
+/* Mobile layout */
+
+@media (max-width: 850px) {
+  :root {
+    --home-left-column: 1fr;
+    --profile-photo-width: 320px;
+  }
+
+  main.content {
+    width: min(100% - 32px, var(--site-max-width));
+    padding-top: 1.6rem;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+    row-gap: 1.8rem;
+  }
+
+  .home-sidebar {
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-main h1 {
+    font-size: 2rem;
+  }
+
+  .cv-pdf {
+    height: 700px;
+  }
+}
+
+.footer {
+  font-size: 0.9rem;
+  color: #666;
+}

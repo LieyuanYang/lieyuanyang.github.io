@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+  resources:
+    - files/**
+    - images/**
+
+website:
+  title: "Lieyuan Yang"
+  site-url: "https://lieyuanyang.github.io"
+  favicon: images/ruc_logo.svg
+  search: false
+  open-graph: true
+  twitter-card: true
+  page-footer:
+    center: "© 2026 Lieyuan Yang. All rights reserved."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: research.qmd
+        text: Research
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: full
+    link-external-newwindow: true
+    css: styles.css

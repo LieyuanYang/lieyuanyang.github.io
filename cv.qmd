@@ -1,0 +1,24 @@
+---
+title: "CV"
+description: "Curriculum vitae of Lieyuan Yang, Assistant Professor of Economics at Renmin University of China."
+---
+
+::: {.standard-page}
+
+# Curriculum Vitae
+
+<div class="cv-actions">
+<a href="files/CV_Lieyuan_Yang.pdf" target="_blank" rel="noopener noreferrer">Download my CV here</a> (Fall 2026 version).
+</div>
+
+
+
+<object class="cv-pdf" data="files/CV_Lieyuan_Yang.pdf" type="application/pdf">
+  <p>
+    Your browser cannot display the PDF directly.
+    <a href="files/CV_Lieyuan_Yang.pdf" target="_blank" rel="noopener noreferrer">Download my CV here.</a>
+  </p>
+</object>
+
+:::
+
