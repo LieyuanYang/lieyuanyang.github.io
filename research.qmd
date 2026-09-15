@@ -73,5 +73,14 @@ description: "Research by Lieyuan Yang on fiscal policy, regional redistribution
 
 </details>
 
+## Work in Progress
+
+<div class="research-entry research-entry-static">
+
+<span class="research-title">A Friction-Robust Estimator of Capital-Labor Substitution</span>
+<span class="research-meta">with Yutong Zhong · 2026</span>
+
+</div>
+
 :::
 
