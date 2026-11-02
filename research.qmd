@@ -31,7 +31,36 @@ description: "Research by Lieyuan Yang on fiscal policy, regional redistribution
 
 </div>
 
+
+
 </details>
+
+<details class="research-entry">
+
+<summary>
+<span class="research-title">A Friction-Robust Estimator of Capital-Labor Substitution</span>
+<span class="research-meta">
+  with <a href="https://yutongzhong223.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          onclick="event.stopPropagation();">Yutong Zhong</a>
+  · November 2026
+</span>
+<span class="research-links">Links.
+<a href="files/papers/Labor_Capital_Substitution_draft.pdf" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">Draft</a>
+</span>
+</summary>
+
+<div class="research-details">
+
+<p><strong>Abstract.</strong> The elasticity of substitution between capital and labor is important for long-run economic growth. Conventional estimators infer this elasticity from firms’ input responses to relative factor prices. Capital frictions can distort these responses and bias estimates even with exogenous instruments. We develop an estimation framework that is robust to these frictions by exploiting firms’ optimal labor choices to jointly identify capital–labor substitution and the demand elasticity. Monte Carlo experiments show that our estimators recover the true parameters in economies with capital frictions and policy distortions. We apply the framework to China’s 2004 Industrial Census. Compared with conventional methods, our estimator yields greater capital–labor substitutability and lower markups and produces more stable estimates across firm groups with different financial conditions.</p>
+
+<p><strong>Keywords.</strong> Elasticity of substitution, capital frictions, financial constraints, labor share, markup estimation.</p>
+
+</div>
+
+</details>
+
 
 <details class="research-entry">
 
@@ -73,14 +102,7 @@ description: "Research by Lieyuan Yang on fiscal policy, regional redistribution
 
 </details>
 
-## Work in Progress
 
-<div class="research-entry research-entry-static">
-
-<span class="research-title">A Friction-Robust Estimator of Capital-Labor Substitution</span>
-<span class="research-meta">with Yutong Zhong · 2026</span>
-
-</div>
 
 :::
 
