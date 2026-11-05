@@ -1,6 +1,5 @@
 ---
 title: "Research"
-description: "Research by Lieyuan Yang on fiscal policy, regional redistribution, economic growth, and GDP measurement."
 ---
 
 ::: {.standard-page}

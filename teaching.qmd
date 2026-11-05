@@ -1,0 +1,32 @@
+---
+title: "Teaching"
+---
+
+::: {.standard-page}
+
+# Teaching
+
+<details class="research-entry">
+
+<summary>
+<span class="research-title">Topics on Capital Misallocation</span>
+<span class="research-meta">PhD Lecture · Renmin University of China · November 2026</span>
+<span class="research-links">
+<a href="files/teaching/lecture_misallocation/misallocation.pdf"
+   target="_blank" rel="noopener noreferrer"
+   onclick="event.stopPropagation();">Slides</a>
+ ·
+<a href="files/teaching/lecture_misallocation/syllabus.pdf"
+   target="_blank" rel="noopener noreferrer"
+   onclick="event.stopPropagation();">Syllabus</a>
+</span>
+</summary>
+
+<div class="research-details">
+
+<p>This lecture introduces an accounting framework for resource misallocation developed by Hsieh and Klenow (2009 QJE) and examines its sources and implications for aggregate productivity. Topics include capital market frictions, firm entry, land allocation,
+trade and migration, state taxes, and the allocation of talent.</p>
+
+</div>
+
+</details>
